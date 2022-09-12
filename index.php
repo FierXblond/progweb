@@ -8,10 +8,6 @@ $token = substr(str_shuffle('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNO
 
 $ipclient = $_SERVER['REMOTE_ADDR'];
 
-
-//// obtener el usermail del formulario de ingresode usuario
-
-
 $usermail = "andre@gmail.com";
 
 
