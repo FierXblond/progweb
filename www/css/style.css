@@ -1,0 +1,37 @@
+
+.banner {
+        background: url('../img/bg-lg.png');
+        background-repeat: no-repeat;
+        background-size: cover}
+
+.bgstyle {
+        background: url('../img/bg-rg.png');
+        background-repeat: no-repeat;
+        background-size: cover}
+
+.installbg{
+        background: url('../img/bg-install.jpg');
+        background-repeat: no-repeat;
+        background-size: cover}
+.formInstall{
+        background-color: rgba(63, 143, 163, 0.4);
+        border-radius: 10px;
+        padding: 150px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        text-shadow: 0 0 10px rgb(70, 69, 69);
+        box-shadow: 0 0 10px rgb(70, 69, 69);
+        width: 80vw;
+        margin: auto;
+        margin-top: 75px;
+}
+
+.user-bg{
+        background: url('../img/bg-user.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+}
