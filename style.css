@@ -1,0 +1,90 @@
+body {
+    background-image: url("COsmos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;}}
+
+.lgn{
+
+  padding: 15px 55px 15px 0;
+  border-radius: 5px;
+  color: white;
+}
+.lgnCont{
+  background-color: rgba(0, 0, 0, 1.0);
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 100px; 
+}
+.imagen{
+  height: 500px;
+  width: 350px;
+
+}
+
+.titUser{
+  color: #eee;
+  text-align: center;
+}
+.gragas{
+  background-color: black;
+  margin: 0 40%;
+  padding-bottom: 1px;
+  border-radius: 30px;
+}
+  
+.nUser{
+  color: rgb(255, 255, 255);
+}
+
+.users{
+  background-color:rgba(0, 0, 0, 1);
+  text-align: center;
+  border-radius: 25px;
+  color: #eee;
+}
+.jsjs{
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px;
+}
+.imgUser{
+  border-radius: 5px;
+}
+
+.jsjs:hover{
+  background-color: rgb(126, 126, 126);
+  color: #eee;
+  transform:scale(1.05) ;
+}
+
+
+.icono{
+  font-size: 48px;
+  display: inline;
+  color: #eee;
+  padding-left: 20px;
+}
+.icono:hover{
+  color: rgb(155, 155, 155);
+  transform: scale(1.1);
+}
+
+.pIcon{
+  font-size: 24px !important;
+  margin: 0 auto;
+}
